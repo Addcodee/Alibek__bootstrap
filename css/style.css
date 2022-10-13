@@ -1,0 +1,57 @@
+/* navbar start */
+ul{
+  list-style-type: none;
+  width: 500px;
+}
+.btn-danger{
+  height: 48px;
+  border-radius: 0;
+}
+/* navbar end */
+
+/* header start */
+.main-image{
+  background: url(./images/header__img.jpg);
+  height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+li{
+  position: relative;
+}
+.active::after{
+  content: "";
+  height: 2px;
+  width: 20px;
+  background-color: red; 
+  position: absolute;
+  bottom: -15px;
+  left: 0; 
+}
+/* header end */
+
+/* section start */
+
+.about-us h1{
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.about-us h4{
+  font-weight: bold;
+}
+
+.services{
+  background-color: #ECF0F1;
+}
+
+i::before{
+  font-size: 40px;
+}
+
+.staff__avatar{
+  background-image: url(./images/staff__avatar.png);
+  width: 150px;
+  height: 150px;
+}
